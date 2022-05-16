@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
+
+/* color: #32b2a9 */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif !important;
+    color: #333333;
+
+   
+}
+
+main {  
+padding-left: 0px !important;
+padding-right: 0px !important;
+margin: auto;
+}
+
+
+/* ENCABEZADO */
+
+
+
+
+.header-gris {
+    background-color: #333333;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-banner {
+    z-index: 1000;
+    position: relative;
+    height: 140px;
+    width: 940px;
+}
+
+.sahara-responsive {
+    z-index: 1000;
+    height: 120px;
+    position: relative;
+} 
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    position: relative;
+}
+
+
+.banner {
+    background-color: blue !important;
+}
+
+
+/* NAVEGADOR */
+
+
+.navbar {
+    background-color: #32b2a9 !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+
+}
+
+.nav-item a {
+    font-weight: 700 !important;
+}
+
+
+
+/* IMAGEN APAISADADA PRINCIPAL */
+
+.imagen-principal img {
+    width: 100% !important;
+}
+
+.imagen-principal h5 {
+    font-size: 68px;
+    font-weight: 700;
+}
+
+
+.imagen-principal p {
+    font-size: 30px;
+}
+
+
+/* ABOUT */
+
+
+.about {
+    margin: auto;
+    width: 95%;
+    padding-bottom: 20px;
+
+}
+
+/* .img-about img{
+    width: 500px !important;
+    height: auto !important;
+
+} */
+
+.texto-about {
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.texto-about h5{
+    font-size: 54px;
+    margin-top: 20px;
+  
+}
+
+.texto-about p {
+    font-size: 18px;
+    line-height: 40px;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+/* TARJETAS */
+/* .cards {
+    width: 960px;
+} */
+
+
+.cards h2 {
+    line-height: 40px;
+    font-size: 30px;
+    text-decoration: 8px underline rgba(230, 209, 24, 1);
+}
+
+
+.card {
+    border: none !important;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);}
+
+    .cards p {
+
+font-size: 12px !important;
+font-family: Segoe, "Segoe UI", Calibri, Candara, Optima, Arial, sans-serif;
+    
+} 
+
+.card img {
+    margin-top: 10px !important;
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+
+.titulo-contactos {
+
+    font-size: 30px;
+    text-decoration: 8px underline rgba(230, 209, 24, 1);
+}
+
+iframe {
+    width: 100% !important;
+    height: 40vh !important;
+}
+
+.direcciones h6{
+    line-height: 30px !important;
+
+
+}
+
+footer {
+    
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+
+
+}
+
+
+.logo_footer img{
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 10px;
+
+}
+
+.logo_footer h6 {
+    font-size: 12px !important;
+    line-height: 20px !important;
+}
+
+.quality_info img {
+    width: 50px !important;
+    height: 64px !important;
+    margin-right: 10px;
+    
+}
+
+.quality_info h6 {
+    font-size: 12px !important;
+    line-height: 20px;
+
+}
+
+.iconos_redes img {
+    width: 40px !important;
+    
+    
+}
+
+
+
+.iconos_redes h6 {
+
+    color: white;
+    font-size: 12px !important;
+}
+
+
+.elementos-footer {
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+
+    main {
+        width: 100% !important;
+    }
+
+    .imagen-principal img{
+        height: 40vh !important;
+    }
+   
+
+   
+    
+}
+
+
+
+
+@media screen and (min-width:1024px) {
+
+      .sahara-responsive {
+            display: none;
+    } 
+     
+}
+
+@media screen and (max-width:1024px) {
+ .img-banner {
+        display: none;
+          
+    } 
+        
+    }
+    
