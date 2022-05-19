@@ -4,27 +4,24 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 
 body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; */
-    font-family: "Spartan",sans-serif;
-
+    font-family: 'Roboto', sans-serif;
     color: #333333;
 
-   
+
 }
 
-main {  
-padding-left: 0px !important;
-padding-right: 0px !important;
-margin: auto;
-width: 940px !important;
-/* box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2) !important; */
+main {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: auto;
+    width: 940px !important;
 
 }
 
@@ -52,7 +49,7 @@ width: 940px !important;
     z-index: 1000;
     height: 120px;
     position: relative;
-} 
+}
 
 .logo {
     width: 40px;
@@ -62,30 +59,24 @@ width: 940px !important;
 }
 
 
-.banner {
-    background-color: blue !important;
-}
-
-
 /* NAVEGADOR */
 
 
 .navbar {
-    height: 40px;
     background-color: #32b2a9 !important;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
-    
+
 
 }
 
 .menu-navegador {
- margin-right: 14rem;
-} 
+    margin-right: 12.5rem;
+}
 
 
 
 .nav-item a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700 !important;
     cursor: pointer !important;
 
@@ -95,7 +86,7 @@ width: 940px !important;
 
 
 .nav-item a:hover {
-    color: yellow !important;
+    color: rgb(204, 204, 52) !important;
 
 }
 
@@ -122,26 +113,17 @@ width: 940px !important;
 /* ABOUT */
 
 
-
-
-/* .img-about img{
-    width: 500px !important;
-    height: auto !important;
-
-} */
-
 .texto-about {
-    /* background-color: #f5f5f5; */
     margin-top: 10px;
 }
 
 
-.texto-about h5{
+.texto-about h2 {
     font-size: 48px;
     margin-top: 20px;
     letter-spacing: -.005em;
-line-height: 1.07143;
-font-weight: 600;
+    line-height: 1.07143;
+    font-weight: 600;
 }
 
 .texto-about p {
@@ -151,21 +133,14 @@ font-weight: 600;
 
 }
 
-#exploreSahara h2{
-    padding: 10px;
+#exploreSahara h2 {
     font-size: 48px;
     letter-spacing: -.005em;
     font-weight: 600;
 }
 
 
-
-
-
 /* TARJETAS */
-.cards {
-padding: 10px;
-}
 
 
 .cards h2 {
@@ -177,14 +152,15 @@ padding: 10px;
 .card {
     border: none !important;
     background-color: transparent;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);}
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
 
-    .cards p {
+.cards p {
 
-font-size: 12px !important;
-font-family: Segoe, "Segoe UI", Calibri, Candara, Optima, Arial, sans-serif;
-    
-} 
+    font-size: 12px !important;
+    font-family: Segoe, "Segoe UI", Calibri, Candara, Optima, Arial, sans-serif;
+
+}
 
 .card img {
     margin-top: 10px !important;
@@ -194,26 +170,20 @@ font-family: Segoe, "Segoe UI", Calibri, Candara, Optima, Arial, sans-serif;
     justify-content: center;
 
 }
-.card:hover {
-    opacity: ;
-
-}
-
-
 
 .titulo-contactos {
 
-padding: 10px;
-font-size: 48px;
-letter-spacing: -.005em;
-font-weight: 600;}
+    font-size: 48px;
+    letter-spacing: -.005em;
+    font-weight: 600;
+}
 
 iframe {
     width: 100% !important;
     height: 40vh !important;
 }
 
-.direcciones h6{
+.direcciones h6 {
     line-height: 30px !important;
 
 
@@ -222,7 +192,7 @@ iframe {
 input {
     border-radius: 0 !important;
     background-color: #f5f5f5 !important;
-  
+
 }
 
 
@@ -233,84 +203,41 @@ textarea {
 
 
 }
-
+.green {
+    width: 100%;
+    height: 60px;
+    background-color: #32b2a9 !important;
+    /* box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.2) !important; */
+}
 
 footer {
-    
-    margin-top: 4rem;
+
+    /* margin-top: 4rem; */
     display: flex;
     justify-content: space-around !important;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+    font-weight: 100;
 
 }
 
-footer .elementos_footer {
-    width: 940px !important;
-    float: inline-end;
+footer h6 {
+font-size: 11px;
 }
 
-
-footer col {
-    margin-right: 50% !important;
+footer .container {
+    /* width: 940px !important; */
+    padding: 0 !important;
 }
 
-.quality_icono h6 {
-    text-align: start;
-    font-size: 12px;
-    padding: 10px;
-    transform: translateY(50%);
-}
- 
-
-
-
-
-
-/* .logo_footer img{
-    width: 50px !important;
-    height: 50px !important;
-    margin-right: 10px;
-
+footer .logo {
+    width: 50px;
+    height: 50px;
+    /* margin-top: 50px; */
 }
 
-.logo_footer h6 {
-    font-size: 12px !important;
-    line-height: 20px !important;
-}
-
-.quality_info img {
-    width: 50px !important;
-    height: 64px !important;
-    margin-right: 10px;
-    
-}
-
-.quality_info h6 {
-    font-size: 12px !important;
-    line-height: 20px;
-
-}
-
-.iconos_redes img {
-    width: 40px !important;
-    
-    
-}
-
-
-
-.iconos_redes h6 {
-
-    color: white;
-    font-size: 12px !important;
-}
-
-
-.elementos-footer {
-    color: white;
+footer h6:first-of-type {
     margin-top: 40px;
-    width: 900px;
-} */
+    margin-left: 5px;
+}
 
 
 footer img:hover {
@@ -318,17 +245,32 @@ footer img:hover {
     cursor: pointer;
 }
 
+.fiscal {
+    width: 40px;
+    height: 50px;
+}
+
+.quality {
+    margin-top: 40px
+}
+
+.quality img {
+    margin-right: 0px !important
+}
 
 
 
+.iconos {
+    margin-right: 10px;
+}
 
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
 
     main {
         width: 100% !important;
     }
 
-    .imagen-principal img{
+    .imagen-principal img {
         width: 90% !important;
     }
 
@@ -337,17 +279,25 @@ footer img:hover {
 
     }
 
-    .texto-about h5{
+    .texto-about h5 {
         font-size: 40px;
     }
 
     .video {
         padding: 40px !important;
     }
+
+    #exploreSahara {
+        padding: 10px !important;
+
+    }
+
     #exploreSahara h2 {
         font-size: 32px !important;
-   
+
+
     }
+
     .formulario {
         padding: 10px;
         margin-top: -40px !important;
@@ -359,17 +309,29 @@ footer img:hover {
 
 @media screen and (min-width:1024px) {
 
-      .sahara-responsive {
-            display: none;
-    } 
-     
+    .sahara-responsive {
+        display: none;
+    }
+
+    .validacionCss, .validacionHtml {
+        width: 80px;
+        height: 30px;
+    
+    }
+    
+    .quality img{
+        margin-right: 10px;
+        height: 90px;
+    }
+    
+
+
 }
 
 @media screen and (max-width:1024px) {
- .img-banner {
+    .img-banner {
         display: none;
-          
-    } 
-        
+
     }
-    
+
+}
